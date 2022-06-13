@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+  <title>Stanford University CS231n: Convolutional Neural Networks for Visual Recognition</title>
+
+  <!-- bootstrap -->
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+
+  <!-- Google fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+
+  <link rel='stylesheet' type='text/css' href='style.css' />
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+
+  <script src='convnet_demo/convnet-min.js'></script>
+  <script src='convnet_demo/convnet_demo.js'></script>
+
+  <script>
+  function page_loaded() {
+    $('#convask').click(function(){
+      $('#explain').slideToggle('fast');
+    })
+    start_convnet_demo();
+  }
+  </script>
+</head>
+
+<body onload='page_loaded()'>
+
+  <div id='teaser'>
+    <div id='convnetvis'></div>
+    <div id='demomsg'>
+      *This network is running live in your browser
+    </div>
+  </div>
+
+<!-- jQuery and Boostrap -->
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js'></script>
+</body>
+
+</html>

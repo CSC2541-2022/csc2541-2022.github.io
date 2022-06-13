@@ -1,0 +1,87 @@
+/* @import 'tailwindcss/base'; */
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+@layer base {
+    a {
+      @apply text-link-blue-500 dark:text-link-blue-200 hover:text-link-blue-200 dark:hover:text-link-blue-100;
+    }
+
+    body {
+        @apply dark:bg-dove-gray-800 dark:text-dove-gray-100;
+    }
+
+    #navbarbrand {
+      @apply dark:text-dove-gray-100
+    }
+
+    #tabular {
+      @apply dark:text-dove-gray-100
+    }
+
+    #navbarouter {
+      @apply bg-white dark:bg-dove-gray-800
+    }
+
+    #navbartoggle {
+      @apply dark:bg-dove-gray-100
+    }
+
+    #footer {
+      @apply bg-white dark:bg-dove-gray-800
+    }
+
+    #deadlineTableRow {
+      @apply bg-link-blue-50 dark:bg-link-blue-700
+    }
+  }
+
+  .tooltip .tooltip-inner {
+    max-width: none;
+    white-space: normal;
+  }
+
+  #teaser {
+    @apply bg-white dark:bg-dove-gray-800
+  }
+
+  .pp {
+    @apply dark:text-dove-gray-100 dark:bg-green-800;
+  }
+
+  #card {
+    @apply bg-white dark:bg-dove-gray-800
+  }
+
+  .actmap {
+    @apply dark:border-black
+  }
+
+  .table {
+    @apply border-black dark:border-dove-gray-100
+  }
+
+  #optional {
+    @apply text-yellow-600 dark:text-yellow-300 hover:text-yellow-400 dark:hover:text-yellow-200;
+  }
+
+  #mandatory {
+    @apply text-link-blue-500 dark:text-link-blue-200 hover:text-link-blue-200 dark:hover:text-link-blue-100;
+  }
+
+  #optionalNoHover {
+    @apply text-yellow-600 dark:text-yellow-300
+  }
+
+  #mandatoryNoHover {
+    @apply text-link-blue-500 dark:text-link-blue-200
+  }
+
+  .iconImg {
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
