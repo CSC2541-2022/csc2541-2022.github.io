@@ -7,7 +7,7 @@ export default function Home() {
     <div className="container">
       <Head>
         <title>CSC2541 (Fall 2021)</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
         <Page>
           <h2>Paper Summary Assignment</h2>

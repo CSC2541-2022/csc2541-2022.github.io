@@ -5,13 +5,16 @@ import { instructorProfile, instructorProfileImgName } from '../helpers';
 export default function CourseStaff() {
     return (
         <>
-        <Row>
-            <Col><b>Instructor</b></Col>
-            <Col><b>Teaching Assistants</b></Col>
-        </Row>
-        <br></br>
+        {/*<Row>*/}
+        {/*    <Col><b>Instructor</b></Col>*/}
+        {/*    <Col><b>Teaching Assistants</b></Col>*/}
+        {/*</Row>*/}
+        {/*<br></br>*/}
         <Row>
             <Col style={{maxWidth: '40%'}}>
+                <Row>
+                    <Col><b>Instructor</b></Col>
+                </Row>
                 <Row>
                         {instructorProfile(
                             "Rahul Krishnan", 
@@ -23,19 +26,22 @@ export default function CourseStaff() {
             </Col>
             <Col>
                 <Row>
+                    <Col><b>Teaching Assistants</b></Col>
+                </Row>
+                <Row>
                     <Col>
                 {instructorProfile(
-                        "Michael Cooper", 
-                        "images/michael.jpg",
-                        "https://michaeljohncooper.com",
+                        "Vahid Balazadeh",
+                        "images/vahid.png",
+                        "https://vahidbalazadeh.me/",
                         "cs.toronto.edu",
-                        "coopermj")}
+                        "vahid")}
                     </Col>
-                    <Col>
-                    {instructorProfileImgName(
-                        "Farnam Mansouri", 
-                        "images/farnam.jpg")}
-                    </Col>
+                    {/*<Col>*/}
+                    {/*{instructorProfileImgName(*/}
+                    {/*    "Farnam Mansouri", */}
+                    {/*    "images/farnam.jpg")}*/}
+                    {/*</Col>*/}
                 </Row>
             </Col>
         </Row>

@@ -86,7 +86,7 @@ export function instructorProfile(name, image_path, homepage, em_domain, em_name
         <Row>
             <Col></Col>
             {/* Email icon */}
-            <Col className='d-flex justify-content-center'>
+            <Col className='d-flex justify-content-end'>
             {bottomTooltip(<a href={"mailto:" + obfuscate(em_domain, em_name)}>
                 <FontAwesomeIcon 
                 icon={faEnvelope} 
@@ -94,7 +94,7 @@ export function instructorProfile(name, image_path, homepage, em_domain, em_name
             </a>, obfuscate(em_domain, em_name))}
             </Col>
             {/* Homepage icon */}
-            <Col className='d-flex justify-content-center'>
+            <Col className='d-flex justify-content-left'>
             {bottomTooltip(<a href={homepage} target="_blank">
                 <FontAwesomeIcon 
                 icon={faLink} 
