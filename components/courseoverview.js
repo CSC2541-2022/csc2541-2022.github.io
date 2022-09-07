@@ -69,7 +69,7 @@ export default function CourseOverview() {
                   justifyContent: "center",
                 }}
               >
-                    {theme === 'dark' ? <Image src={"/logo_dark.png"} width={"600"} height={"272"}/> : <Image src={"/logo.png"} width={"600"} height={"272"}  />}
+                    {theme === 'dark' ? <Image src={"/logo_dark.png"} width={"600"} height={"272"} /> : <Image src={"/logo.png"} width={"600"} height={"272"}  />}
                 </div>
                 <div style={{fontSize:"11px", justifyContent: "right"}}>"Towards causal representation learning"., Schölkopf et al. Proceedings of the IEEE 2021</div>
             </Col>
