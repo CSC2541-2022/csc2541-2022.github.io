@@ -152,7 +152,6 @@ export default function Home() {
                     </tbody>
 
                 </Table>
-                <h3>For more ideas and datasets check out the following conferences/workshops/surveys:</h3>
                 <h5>Surveys:</h5>
                 <li><a href={"https://royalsocietypublishing.org/doi/10.1098/rsos.220638"}>Causal machine learning for healthcare and precision medicine</a> </li>
                 <li><a href={"https://arxiv.org/abs/2206.15475"}>Causal Machine Learning: A Survey and Open Problems</a> </li>

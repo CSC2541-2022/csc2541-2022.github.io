@@ -35,13 +35,13 @@ export default function Home() {
           {/*    <small>October 1, 2021</small>*/}
           {/*  </div>*/}
           {/*</Alert>*/}
-          <Alert variant="info">
-            We will continually post some suggested <Alert.Link href="/projectresources">project ideas</Alert.Link> that might be helpful as you start brainstorming for the course project. Make sure to check them out.
-            <br></br>
-            <div align="right">
-              <small>September 7, 2022</small>
-            </div>
-          </Alert>
+          {/*<Alert variant="warning">*/}
+          {/*  We will continually post some suggested <Alert.Link href="/projectresources">project ideas</Alert.Link> that might be helpful as you start brainstorming for the course project. Make sure to check them out.*/}
+          {/*  <br></br>*/}
+          {/*  <div align="right">*/}
+          {/*    <small>September 7, 2022</small>*/}
+          {/*  </div>*/}
+          {/*</Alert>*/}
 
           <h3>Course Description</h3>
           <CourseDescription/>
