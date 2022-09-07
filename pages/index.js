@@ -3,10 +3,13 @@ import Page from '../components/page'
 import CourseStaff from '../components/coursestaff'
 import CourseOverview from '../components/courseoverview'
 import CourseDescription from '../components/coursedescription'
-import ConvNetDemo from '../components/classifier_demo/demo'
+import Logo from '../components/classifier_demo/demo'
 import { Alert } from 'react-bootstrap'
+import {useTheme} from "next-themes";
+import Image from 'next/image'
 
 export default function Home() {
+  const { theme, setTheme } = useTheme();
   return (
     <div className="container">
       <Head>
@@ -16,13 +19,8 @@ export default function Home() {
         <Page>
           <h2>CSC2541 Topics in Machine Learning:
             Introduction to Causality </h2>
+          <br/>
 
-          {/*&#128075;&#65039;</h2>*/}
-          <br></br>
-          {/*<ConvNetDemo/>*/}
-          {/*<br></br>*/}
-
-          <h3>The Essentials</h3>
           <CourseOverview/>
           <br></br>
 

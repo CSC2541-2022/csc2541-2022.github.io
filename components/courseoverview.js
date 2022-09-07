@@ -4,6 +4,7 @@ import { bottomTooltip } from '../helpers';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { useTheme } from 'next-themes'
 import { urlObjectKeys } from 'next/dist/next-server/lib/utils';
+import Image from "next/image";
 
 function quercusLogo(dark) {
     if (dark) {
@@ -39,24 +40,41 @@ export default function CourseOverview() {
 
         {/*<Card style={{ width: '100%', border: "2px solid"}}>*/}
         {/*<Card.Body id="card">*/}
-        <div>
+        <Row>
+            <Col>
+                <div>
+                    <h3>The Essentials</h3>
             <b>Instructor: </b>
             <a href="http://www.cs.toronto.edu/~rahulgk/" target="_blank">Dr. Rahul Krishnan</a>
-        </div>
-        <div>
-            <b>Time: </b> Mondays 3:00PM - 5:00PM.
-        </div>
-        <div>
-            <b>Location: </b> <a href="https://map.utoronto.ca/?id=1809#!m/494515" target="_blank">RW 140</a>
-        </div>
-        <div>
-            <b>Office Hours:</b>
-            <ul>
-                <li><b>Rahul: </b> Mondays, 11:00AM - 12:00PM, <a href="https://map.utoronto.ca/?id=1809#!m/494469" target="_blank"> PT 286</a>.</li>
-                <li><b>Vahid: </b> Wednesdays, 1:30PM - 2:30PM, <a href="https://map.utoronto.ca/?id=1809#!m/494469" target="_blank"> PT 286</a>. </li>{/*7:00PM - 8:00PM, <a href="https://q.utoronto.ca/courses/239200/discussion_topics/1357692" target="_blank">on Zoom</a>.</li>*/}
-                {/*<li><b>Farnam: </b> Thursdays, 11:00AM - 1:00PM, <a href="https://calendly.com/frnm-mansouri/farnam-s-csc-2541-office-hours" target="_blank">by appointment</a>.</li>*/}
-            </ul>
-        </div>
+            </div>
+            <div>
+                <b>Time: </b> Mondays 3:00PM - 5:00PM.
+            </div>
+            <div>
+                <b>Location: </b> <a href="https://map.utoronto.ca/?id=1809#!m/494515" target="_blank">RW 140</a>
+            </div>
+            <div>
+                <b>Office Hours:</b>
+                <ul>
+                    <li><b>Rahul: </b> Mondays, 11:00AM - 12:00PM, <a href="https://map.utoronto.ca/?id=1809#!m/494469" target="_blank"> PT 286</a>.</li>
+                    <li><b>Vahid: </b> Wednesdays, 1:30PM - 2:30PM, <a href="https://map.utoronto.ca/?id=1809#!m/494469" target="_blank"> PT 286</a>. </li>{/*7:00PM - 8:00PM, <a href="https://q.utoronto.ca/courses/239200/discussion_topics/1357692" target="_blank">on Zoom</a>.</li>*/}
+                    {/*<li><b>Farnam: </b> Thursdays, 11:00AM - 1:00PM, <a href="https://calendly.com/frnm-mansouri/farnam-s-csc-2541-office-hours" target="_blank">by appointment</a>.</li>*/}
+                </ul>
+            </div>
+            </Col>
+            <Col>
+                <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                }}
+              >
+                    {theme === 'dark' ? <Image src={"/logo_dark.png"} width={"600"} height={"272"}/> : <Image src={"/logo.png"} width={"600"} height={"272"}  />}
+                </div>
+                <div style={{fontSize:"11px", justifyContent: "right"}}>"Towards causal representation learning"., Schölkopf et al. Proceedings of the IEEE 2021</div>
+            </Col>
+        </Row>
+
 
         {/*<div>*/}
         {/*    <b> Booking Presentations Practice:</b>*/}
@@ -65,7 +83,7 @@ export default function CourseOverview() {
         {/*        <li><b>Farnam: </b> Tuesdays, 11:00AM - 1:00PM, <a href="https://calendly.com/frnm-mansouri/farnam-s-csc2541-presentation-practice-hours?month=2021-10" target="_blank">by appointment</a>.</li>*/}
         {/*    </ul>*/}
         {/*</div>*/}
-            {/* Icons for various course features */}
+        {/*    /!* Icons for various course features *!/*/}
         {/*<Row>*/}
         {/*<Col></Col>*/}
         {/*<Col className='d-flex justify-content-center'>*/}
