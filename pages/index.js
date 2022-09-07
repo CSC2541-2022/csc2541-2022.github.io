@@ -26,8 +26,8 @@ export default function Home() {
           <CourseOverview/>
           <br></br>
 
-          {/*<h3>Announcements</h3>*/}
-          {/* Alert for checking out project resources. */}
+          <h3>Announcements</h3>
+          {/* /!*Alert for checking out project resources.*!/*/}
           {/*<Alert variant="info">*/}
           {/*  We're moving classrooms! Starting on October 4, we'll be meeting in <a href="https://goo.gl/maps/S1q3m7v3T1e76r826" target="_blank">ES B142</a> instead of our usual UC 85.*/}
           {/*  <br></br>*/}
@@ -35,13 +35,13 @@ export default function Home() {
           {/*    <small>October 1, 2021</small>*/}
           {/*  </div>*/}
           {/*</Alert>*/}
-          {/*<Alert variant="info">*/}
-          {/*  We've posted <Alert.Link href="/projectresources">project datasets and resources</Alert.Link> - make sure to check them out, as they might be helpful as you work on brainstorming for your course projects!*/}
-          {/*  <br></br>*/}
-          {/*  <div align="right">*/}
-          {/*    <small>September 17, 2021</small>*/}
-          {/*  </div>*/}
-          {/*</Alert>*/}
+          <Alert variant="info">
+            We will continually post some suggested <Alert.Link href="/projectresources">project ideas</Alert.Link> that might be helpful as you start brainstorming for the course project. Make sure to check them out.
+            <br></br>
+            <div align="right">
+              <small>September 7, 2022</small>
+            </div>
+          </Alert>
 
           <h3>Course Description</h3>
           <CourseDescription/>

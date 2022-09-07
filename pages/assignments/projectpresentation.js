@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>CSC2541 (Fall 2021)</title>
+        <title>CSC2541 (Fall 2022)</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
         <Page>
@@ -14,14 +14,14 @@ export default function Home() {
           <h2>Project Presentation</h2>
           <h5>Due: Varies based on presentation slot.</h5>
 
-          <p>The final project presentation is your chance to showcase the hard work that you’ve done in your course projects this quarter. These presentations are to be completed in the same manner as the partnered paper presentations, except that these will be done in your project groups of up to four students (while your paper presentations were done in groups of two). It is not expected that all group members have a speaking role in the presentation, but it is expected that all team members contribute to the presentation component of the project.</p>
+          <p>The final project presentation is your chance to showcase the hard work that you’ve done in your course projects this quarter. These presentations are to be completed in the same manner as the partnered paper presentations, except that these will be done in your project groups of up to four students (while your paper presentations were done in groups of three). It is not expected that all group members have a speaking role in the presentation, but it is expected that all team members contribute to the presentation component of the project.</p>
 
           <p>The same pointers and guidelines apply to the project presentation as applied to the paper presentations:</p>
           <ul>
-          <li>What motivated the work? Who should care about it and what potential clinical applications do you foresee this work being useful for?</li>
+          <li>What motivated the work? Who should care about it and what potential applications do you foresee this work being useful for?</li>
           <li>What problem is your paper trying to solve?</li>
           <li>What is the approach you are taking? How is it different from what has been done before?</li>
-          <li>Describe the core technical or clinical contributions of your project - explain why your project is novel to the literature and what it allows practitioners to do which could not be done before.</li>
+          <li>Describe the core technical or practical contributions of your project - explain why your project is novel to the literature and what it allows practitioners to do which could not be done before.</li>
           <li>What are the limitations of your work? What would you have done to improve upon your work?</li>
           </ul>
           <p>If you don’t yet have results to show on your project because you're presenting early, simply explain what you’re planning to do and your anticipated results.</p>

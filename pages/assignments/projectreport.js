@@ -5,21 +5,21 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>CSC2541 (Fall 2021)</title>
+        <title>CSC2541 (Fall 2022)</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
         <Page>
           <h2>Final Project Report</h2>
           <h5>Due: December 8, at 11:59PM ET.</h5>
           <h6>Adapted from and credit to similar work from <a href="http://www.cs.toronto.edu/~duvenaud/" target="_blank">David Duvenaud</a>.</h6>
-          <p>Your project report should resemble a conference workshop abstract (<a href="https://sites.google.com/view/med-neurips-2020/abstracts" target="_blank">examples here</a>). If you feel that your project won’t cleanly fit into this rubric, please reach out to Rahul or the TAs.</p>
+          <p>Your project report should resemble a conference workshop abstract (<a href="https://sites.google.com/view/med-neurips-2020/abstracts" target="_blank">examples here</a>). If you feel that your project won’t cleanly fit into this rubric, please reach out to Rahul or Vahid.</p>
 
           <p>You should aim to produce a report of 4 to 8 pages in length (not to exceed 8 pages), not including appendices or bibliography. Don’t be afraid to keep the text short and to the point, and to include large illustrative figures.</p>
 
           <p>You will be evaluated on how effectively your project meets the criteria described in the subsequent sections. You may note that nowhere in the requirements do we require your model to achieve excellent results in order to produce a strong project: rather, you will be primarily evaluated on the strength of your evaluation of the problem domain, selection of methods, novelty of your contribution, and discussion of strengths and drawbacks of your chosen method(s).</p>
 
         <h5>Abstract (4 points)</h5>
-        <p>Your abstract should summarize the main idea of the project and its contributions. Crucially, it should highlight the clinical relevance of the problem that you tackled, and should be understandable to anyone who has taken CSC 2541. In the abstract, you do not need to discuss everything you did in detail; rather, you should leave the reader with the main idea of your work, plus one or two other notable takeaways (if applicable).​</p>
+        <p>Your abstract should summarize the main idea of the project and its contributions. Crucially, it should highlight the relevance of the problem to causal inference, and should be understandable to anyone who has taken CSC 2541. In the abstract, you do not need to discuss everything you did in detail; rather, you should leave the reader with the main idea of your work, plus one or two other notable takeaways (if applicable).</p>
 
         <h5>Introduction (4 points)</h5> 
         <p>Your introduction should clearly state the problem being addressed, discuss why it is interesting and important, and set the stage for why your methods are an appropriate means of approaching the problem.</p>
@@ -50,12 +50,14 @@ export default function Home() {
         <p>This is the section to demonstrate how well your project achieves your given objective. This can be done in one of the following ways:</p>
         <ul>
         <li>Comparing the performance of your model against a baseline model, either a baseline sourced from the literature (the preferred option if such a baseline exists), or a baseline of your own design.</li>
-        <li>A demonstration of a theorem or conjecture: for example, applying your theorem using your selected healthcare problem as an example, and demonstrating its performance.</li>
-        <li>An experiment demonstrating that your model possesses some property of interest (for example, interpretability) that conventional baselines in the space do not.</li>
+        <li>A demonstration of a theorem or conjecture: for example, applying your theorem on a (semi-synthetic) real-world or synthetic dataset, and demonstrating its performance.</li>
+        <li>An experiment demonstrating that your model possesses some property of interest that conventional baselines in the space do not.</li>
         </ul>
-        <p>Your discussion of your experiments should also include a description of how you prepared your datasets, how you trained your model, and any tricks you used to get it working. It may also be fruitful to include toy data: though running your approach on toy data alone will be insufficient (as we require this project to contribute to the domain of machine learning in healthcare), toy data can assist in establishing intuition behind your approach, or the use cases in which your approach is most valuable.</p>
+        <p>Your discussion of your experiments should also include a description of how you prepared your datasets, how you trained your model, and any tricks you used to get it working.
+         Toy data is OK if you plan to work on a theoretical question. Also, because of the fundamental problem of causal inference, it is generally not possible to get ground-truth real-world data. You will probably need to construct semi-synthetic datasets, either through simulations or sub-sampling from randomized clinical trials.</p>
 
-        <p>If you are doing a review paper for your final project, your comparison or demonstration should consist of a comparison of the reviewed techniques on a relevant healthcare problem (or problems) of interest.</p>
+        <p>If you are doing a review paper for your final project, your comparison or demonstration should consist of a comparison of the reviewed techniques on a variety of real-world and synthetic datasets such as
+          continuous/discrete treatments, high-dimensional covariates, small sample regimes, multi-dimensional treatment/outputs, multiple causal graphs, etc.</p>
 
         <p>If you are including plots of your results (which is encouraged), make sure to label plot axes, and (when necessary) provide a caption explaining the plot(s) and their significance.</p>
 
@@ -69,7 +71,7 @@ export default function Home() {
         <p>Please also include a segment of your report (not counted toward the page limit) discussing the contributions of each team member toward the final project. Contributions can include (but are not limited to) problem formulation, dataset setup, running experiments, and writing the final report. A good example of this can be found in the first footnote of <a href="https://arxiv.org/pdf/1706.03762.pdf" target="_blank">Attention Is All You Need</a>.</p>
 
         <h5>Appendices</h5>
-        <p>You are welcome to use the appendices to include additional proofs, extra details, and experiments; however, please do not use the appendices to include crucial information missing from the main text to circumvent the page limit (a good rule of thumb here is - “if the reader does not look at the appendix, will they still be able to draw the intended value and insights from this work?”), or to overwhelm the reader with irrelevant details (for example, please do not wholesale copy/paste your codebase into an appendix - although, if there are unique, nifty features of your implementation that you would like to highlight, these segments are welcomed in your appendices). If you are taking a more theoretical approach to your project, appendices are an excellent place to situate long mathematical derivations that would otherwise interrupt the flow of the paper. Similarly, if you are working with generative models, this is also a good place to situate additional generated examples which may be numerous for your paper’s main body.</p>
+        <p>You are welcome to use the appendices to include additional proofs, extra details, and experiments; however, please do not use the appendices to include crucial information missing from the main text to circumvent the page limit (a good rule of thumb here is - “if the reader does not look at the appendix, will they still be able to draw the intended value and insights from this work?”), or to overwhelm the reader with irrelevant details (for example, please do not wholesale copy/paste your codebase into an appendix - although, if there are unique, nifty features of your implementation that you would like to highlight, these segments are welcomed in your appendices). If you are taking a more theoretical approach to your project, appendices are an excellent place to situate long mathematical derivations that would otherwise interrupt the flow of the paper. </p>
 
         <h5>Novelty (20 points)</h5> 
         <p>Novelty is graded on a sliding scale and is of course somewhat subjective, but here are a few guidelines:</p>
@@ -82,7 +84,7 @@ export default function Home() {
         <h5>Miscellaneous Guidelines</h5>
         <ul>
         <li>You’re free to play with the format of your paper, as long as all the required content is present and easy to find.</li>
-        <li>In addition to your writeup, please submit a copy of your code, either as a .zip file, or through the inclusion of a Github link to your codebase included in one of the appendices. Please do not include any of your training/evaluation/test data in your submission, as that may exhaust the memory capacity of our submission system.</li>
+        <li>In addition to your writeup, please submit a copy of your code, either as a .zip file, or through the inclusion of a Github link to your codebase included in one of the appendices. </li>
         </ul>
         </Page>
     </div>

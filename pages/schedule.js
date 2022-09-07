@@ -175,7 +175,7 @@ export default function Home() {
                     <tr>
                         <td>11/21/2022</td>
                         <td>
-                            <b>More Advance Estimation Methods </b>
+                            <b>More Advanced Estimation Methods </b>
                             +
                             Student Project Presentation
                         </td>

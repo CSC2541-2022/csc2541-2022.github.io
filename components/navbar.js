@@ -27,11 +27,11 @@ export default function NavigationBar() {
                   <NavLink href="/schedule" style={{color: "#808080"}}>Schedule</NavLink>
                 </Link>
               </NavItem>
-              {/*<NavItem>*/}
-              {/*  <Link href="/assignments">*/}
-              {/*    <NavLink href="/assignments" style={{color: "#808080"}}>Assignments</NavLink>*/}
-              {/*  </Link>*/}
-              {/*</NavItem>*/}
+              <NavItem>
+                <Link href="/assignments">
+                  <NavLink href="/assignments" style={{color: "#808080"}}>Assignments</NavLink>
+                </Link>
+              </NavItem>
               <NavItem>
                 <Link href="/logistics">
                   <NavLink href="/logistics" style={{color: "#808080"}}>Logistics</NavLink>
