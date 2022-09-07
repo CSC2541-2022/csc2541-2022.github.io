@@ -26,7 +26,7 @@ export default function Home() {
           <CourseOverview/>
           <br></br>
 
-          <h3>Announcements</h3>
+          {/*<h3>Announcements</h3>*/}
           {/* /!*Alert for checking out project resources.*!/*/}
           {/*<Alert variant="info">*/}
           {/*  We're moving classrooms! Starting on October 4, we'll be meeting in <a href="https://goo.gl/maps/S1q3m7v3T1e76r826" target="_blank">ES B142</a> instead of our usual UC 85.*/}
