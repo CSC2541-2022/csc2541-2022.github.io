@@ -45,6 +45,15 @@ export default function Home() {
                 <link rel="icon" href="/favicon.png"/>
             </Head>
             <Page>
+                <h5>Textbooks</h5>
+                The followings are useful textbooks for the course.<br/>
+                <ul>
+                <li>(C) Judea Pearl (2009) <a href={"http://bayes.cs.ucla.edu/BOOK-2K/"}> Causality</a> </li>
+                <li>(CIWI) Miguel A. Hernán, James M. Robins (2020) <a href={"https://cdn1.sph.harvard.edu/wp-content/uploads/sites/1268/2021/03/ciwhatif_hernanrobins_30mar21.pdf"}> Causal Inference: What If</a> </li>
+                <li>(ECI) Jonas Peters, Dominik Janzing, Bernhard Schlkopf (2017) <a href={"https://mitp-content-server.mit.edu/books/content/sectbyfn?collid=books_pres_0&id=11283&fn=11283.pdf"}>Elements of Causal Inference: Foundations and Learning Algorithms</a> </li>
+                <li>(ICI) Brady Neal (2020) <a href={"https://www.bradyneal.com/Introduction_to_Causal_Inference-Dec17_2020-Neal.pdf"}>Introduction to Causal Inference</a> </li>
+          </ul>
+            <h5>Tentative Schedule</h5>
                 {/*<p>In the below schedule, blue PDF icons ({<FontAwesomeIcon icon={faFilePdf} size="1x" id="mandatoryNoHover"/>}) represent required readings for the week, whereas yellow icons ({<FontAwesomeIcon icon={faFilePdf} size="1x" id="optionalNoHover"/>}) represent optional readings. Highlighted cells indicate that a course deliverable is due on that date.</p>*/}
                 {/*<p>Lecture slides can be found linked below; lecture recordings can be found on Quercus.</p>*/}
                 <Table id="tabular">
@@ -52,7 +61,7 @@ export default function Home() {
                     <tr>
                         <th></th>
                         <th></th>
-                        <th></th>
+                        <th style={{ minWidth: 150, width: 200 }}></th>
                     </tr>
                     </thead>
                     <tbody>
@@ -72,7 +81,14 @@ export default function Home() {
                             trials and observational studies to understand the difference between association and causation.
                             We will use the potential outcome framework to quantify the causal effects in a simple binary case.
                         </td>
-                        <td> TBD </td>
+                        <td> CIWI 1, 2.1-2.2, 3.1-3.5 <br/>
+                             ICI 1 & 2
+                            {/*<br/>*/}
+                            {/*optional: {makeLink(*/}
+                            {/*    "optional",*/}
+                            {/*    "https://arxiv.org/pdf/1711.02582.pdf",*/}
+                            {/*    "Overlap in observational studies with high-dimensional covariates")}*/}
+                        </td>
                         {/*<td rowSpan="1">*/}
                         {/*  {makeLink("mandatory", */}
                         {/*  "https://www.healthaffairs.org/doi/full/10.1377/hlthaff.2014.0041", */}

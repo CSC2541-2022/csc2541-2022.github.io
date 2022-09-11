@@ -24,13 +24,6 @@ export default function Home() {
             <li><b>15%</b>: Project Presentation (completed in project groups)</li>
             <li><b>35%</b>: Project Final Report (completed in project groups)</li>
           </ul>
-          <h5>References</h5>
-                The followings are useful textbooks for the course. Suggested readings will be posted after each lecture. <br/>
-          <ul>
-                <li>Judea Pearl (2009) <a href={"http://bayes.cs.ucla.edu/BOOK-2K/"}> Causality</a> </li>
-                <li>Miguel A. Hernán, James M. Robins (2020) <a href={"https://cdn1.sph.harvard.edu/wp-content/uploads/sites/1268/2021/03/ciwhatif_hernanrobins_30mar21.pdf"}> Causal Inference: What If</a> </li>
-                <li>Jonas Peters, Dominik Janzing, and Bernhard Schlkopf (2017) <a href={"https://mitp-content-server.mit.edu/books/content/sectbyfn?collid=books_pres_0&id=11283&fn=11283.pdf"}>Elements of Causal Inference: Foundations and Learning Algorithms</a> </li>
-          </ul>
           {/*<h5>Late Policy</h5>*/}
           {/*<p>All students in this class are granted two 24-hour "late days" which they may use on any written submission assignments throughout the quarter (with the exception of the Project Final Report). You do not need to inform the course staff that you are using a late day for a particular assignment: we will automatically deduct from your late day allocation if you make a submission after the deadline. Once you have used both your late days, we will apply a penalty of 30% per day for each subsequent late submission. Any assignment received more than four calendar days past its due date will not be graded.</p>*/}
           {/*<p>If a component of a group submission is late, <i>all members of the group</i> will be deducted the appropriate number of late days (or penalized with the 30% per day discount factor, depending on how late the submission is and how many late days each group member has remaining).</p>*/}
