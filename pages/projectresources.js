@@ -17,7 +17,7 @@ export default function Home() {
                     groups.
                     You are allowed to choose any original research question that is related to the course content.
                     We will continually update this page throughout the semester.</p>
-                <Table className="table table-bordered">
+                <Table id="tabular" className="table table-bordered">
                     <thead>
                     <tr style={{justifyContent: 'center', alignItems: 'center'}}>
                         <th>Topic</th>
