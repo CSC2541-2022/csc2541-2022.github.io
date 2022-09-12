@@ -24,15 +24,17 @@ export default function Home() {
           <CourseOverview/>
           <br></br>
 
-          {/*<h3>Announcements</h3>*/}
-          {/* /!*Alert for checking out project resources.*!/*/}
-          {/*<Alert variant="info">*/}
-          {/*  We're moving classrooms! Starting on October 4, we'll be meeting in <a href="https://goo.gl/maps/S1q3m7v3T1e76r826" target="_blank">ES B142</a> instead of our usual UC 85.*/}
-          {/*  <br></br>*/}
-          {/*  <div align="right">*/}
-          {/*    <small>October 1, 2021</small>*/}
-          {/*  </div>*/}
-          {/*</Alert>*/}
+          <h3>Announcements</h3>
+           {/*Alert for checking out project resources.*/}
+          <Alert variant="info">
+            <h5>COVID-19</h5>
+<p>Although the pandemic has diminished somewhat, all indications are that we are not yet out of the woods. The university no longer requires the use of masks on its premises but encourages it where it is impossible to maintain physical distancing, such as in classrooms and offices.</p>
+<p>We strongly recommend that you continue to wear masks during lectures, tutorials, and office hours out of consideration for the health of others. We also strongly encourage you to get vaccine booster shots whenever possible. The instructors plan to wear masks when in close proximity with students, such as when answering questions after lectures or during office hours. However, we may take off our masks when lecturing if we are at a safe distance from students.</p>
+            <br></br>
+            <div align="right">
+              <small>September 12, 2022</small>
+            </div>
+          </Alert>
           {/*<Alert variant="warning">*/}
           {/*  We will continually post some suggested <Alert.Link href="/projectresources">project ideas</Alert.Link> that might be helpful as you start brainstorming for the course project. Make sure to check them out.*/}
           {/*  <br></br>*/}
