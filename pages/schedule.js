@@ -74,7 +74,7 @@ export default function Home() {
                     <tr>
                         <td>09/12/2022</td>
                         <td>
-                            <b>Introduction and Motivation </b>
+                           <a href={"/lectures/CSC2541_lecture1_intro.pdf"}><b>Introduction and Motivation </b></a>
                             <br/>
                             We start the course by looking at applications where statistical association cannot
                             fully capture the underlying data-generating processes. We then introduce randomized controlled
