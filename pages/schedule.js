@@ -52,6 +52,7 @@ export default function Home() {
                 <li>(CIWI) Miguel A. Hernán, James M. Robins (2020) <a href={"https://cdn1.sph.harvard.edu/wp-content/uploads/sites/1268/2021/03/ciwhatif_hernanrobins_30mar21.pdf"}> Causal Inference: What If</a> </li>
                 <li>(ECI) Jonas Peters, Dominik Janzing, Bernhard Schlkopf (2017) <a href={"https://mitp-content-server.mit.edu/books/content/sectbyfn?collid=books_pres_0&id=11283&fn=11283.pdf"}>Elements of Causal Inference: Foundations and Learning Algorithms</a> </li>
                 <li>(ICI) Brady Neal (2020) <a href={"https://www.bradyneal.com/Introduction_to_Causal_Inference-Dec17_2020-Neal.pdf"}>Introduction to Causal Inference</a> </li>
+                <li>(PGM) Daphne Koller and Nir Friedman (2009) <a href={"https://mitpress.mit.edu/9780262013192/probabilistic-graphical-models/"}> Probabilistic Graphical Models - Principles and Techniques</a> </li>
           </ul>
             <h5>Tentative Schedule</h5>
                 {/*<p>In the below schedule, blue PDF icons ({<FontAwesomeIcon icon={faFilePdf} size="1x" id="mandatoryNoHover"/>}) represent required readings for the week, whereas yellow icons ({<FontAwesomeIcon icon={faFilePdf} size="1x" id="optionalNoHover"/>}) represent optional readings. Highlighted cells indicate that a course deliverable is due on that date.</p>*/}
@@ -82,7 +83,8 @@ export default function Home() {
                             We will use the potential outcome framework to quantify the causal effects in a simple binary case.
                         </td>
                         <td> CIWI 1, 2.1-2.2, 3.1-3.5 <br/>
-                             ICI 1 & 2
+                             ICI 1 & 2 <br/>
+                             PGM 3
                             {/*<br/>*/}
                             {/*optional: {makeLink(*/}
                             {/*    "optional",*/}
