@@ -3,7 +3,6 @@ import Page from '../components/page'
 import CourseStaff from '../components/coursestaff'
 import CourseOverview from '../components/courseoverview'
 import CourseDescription from '../components/coursedescription'
-import Logo from '../components/classifier_demo/demo'
 import { Alert } from 'react-bootstrap'
 import {useTheme} from "next-themes";
 import Image from 'next/image'
