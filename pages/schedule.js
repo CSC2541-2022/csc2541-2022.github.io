@@ -109,13 +109,17 @@ export default function Home() {
                     <tr>
                         <td>09/19/2022</td>
                         <td>
-                            <b>Causal Models</b>
+                            <a href={"/lectures/CSC2541_lecture2_causal_models.pdf"}> <b> Causal Models</b> </a>
                             <br/>
                             Conditional distributions are not enough to model and estimate causal effects. In this lecture,
                             we'll see how the notion of interventions is a general way to quantify causal effects.
                             In particular, we'll use causal graphs and structural causal models (SCMs) to formally define interventional distributions.
                         </td>
-                        <td> TBD </td>
+                        <td>
+                        ECI 2 <br/>
+                            ICI 3, 4.1-4.3 <br/>
+                            C 1.2 & 1.3
+                        </td>
                     </tr>
 
                     <tr>
