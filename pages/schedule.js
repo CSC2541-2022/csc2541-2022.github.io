@@ -116,9 +116,9 @@ export default function Home() {
                             In particular, we'll use causal graphs and structural causal models (SCMs) to formally define interventional distributions.
                         </td>
                         <td>
-                        ECI 2 <br/>
+                        ECI 2, 6.1-6.3<br/>
                             ICI 3, 4.1-4.3 <br/>
-                            C 1.2 & 1.3
+                            C 1.2-1.4
                         </td>
                     </tr>
 
