@@ -118,7 +118,8 @@ export default function Home() {
                         <td>
                         ECI 2, 6.1-6.3<br/>
                             ICI 3, 4.1-4.3 <br/>
-                            C 1.2-1.4
+                            C 1.2-1.4 <br/>
+                            Inverse CDF: <a href={"https://en.wikipedia.org/wiki/Inverse_transform_sampling"}>link1, </a> <a href={"https://stephens999.github.io/fiveMinuteStats/inverse_transform_sampling.html"}>link2</a>
                         </td>
                     </tr>
 
