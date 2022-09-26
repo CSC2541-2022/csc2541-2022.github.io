@@ -90,18 +90,18 @@ export default function Home() {
                                     <a href={"https://github.com/DataCanvasIO/YLearn"}>link4</a>
                         </td>
                     </tr>
-                    <tr>
-                        <td> Causal representation learning and transfer learning</td>
-                        <td>
+                    {/*<tr>*/}
+                    {/*    <td> Causal representation learning and transfer learning</td>*/}
+                    {/*    <td>*/}
 
-                        </td>
-                        <td>
-                            Papers:
-                            <br/><br/>
-                            Datasets/Benchmarks: <br/>
+                    {/*    </td>*/}
+                    {/*    <td>*/}
+                    {/*        Papers:*/}
+                    {/*        <br/><br/>*/}
+                    {/*        Datasets/Benchmarks: <br/>*/}
 
-                        </td>
-                    </tr>
+                    {/*    </td>*/}
+                    {/*</tr>*/}
                     <tr>
                         <td> Partial identification and sensitivity analysis</td>
                         <td>
