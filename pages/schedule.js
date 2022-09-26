@@ -126,7 +126,7 @@ export default function Home() {
                     <tr>
                         <td>09/26/2022</td>
                         <td>
-                            <b>Identification </b>
+                            <b> <a href={"/lectures/CSC2541_lecture3_identification.pdf"}>Identification</a>  </b>
                             <br/>
                             In order to estimate causal effects from data,
                             we first need to convert them to a function of data (observational distribution).
@@ -135,7 +135,7 @@ export default function Home() {
                             Back-door and Front-door criteria. We then introduce <i>do</i>-calculus as a complete non-parametric identification algorithm.
                         </td>
                         <td> C 3.1-3.4 <br/>
-                             ECI 6.4, 7.1-7,2
+                             ECI 6.4, 7.1-7.2 <br/>
                              ICI 6.1-6.2
                         </td>
                     </tr>
