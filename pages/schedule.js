@@ -134,7 +134,10 @@ export default function Home() {
                             We use causal graphs to study sufficient conditions for identification, such as
                             Back-door and Front-door criteria. We then introduce <i>do</i>-calculus as a complete non-parametric identification algorithm.
                         </td>
-                        <td> TBD </td>
+                        <td> C 3.1-3.4 <br/>
+                             ECI 6.4, 7.1-7,2
+                             ICI 6.1-6.2
+                        </td>
                     </tr>
 
                     <tr>
