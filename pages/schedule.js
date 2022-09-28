@@ -149,7 +149,12 @@ export default function Home() {
                             from finite data. This lecture focuses on some well-known estimators in the literature,
                             including parametric g-formula, propensity scores, inverse propensity weighting, and matching.
                         </td>
-                        <td> TBD </td>
+                        <td>
+                            ICI 7.1-7.6 <br/>
+                            <a href={"https://arxiv.org/pdf/1706.03461.pdf"}> Meta-Learners </a> <br/>
+                             <a href={"https://arxiv.org/pdf/1606.03976.pdf"}> TAR-Net</a> <br/>
+                             <a href={"https://www.stat.cmu.edu/~ryantibs/journalclub/rosenbaum_1983.pdf"}> Propensity Score</a> <br/>
+                        </td>
                     </tr>
 
                     <tr>
