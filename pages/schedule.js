@@ -143,7 +143,7 @@ export default function Home() {
                     <tr>
                         <td>10/03/2022</td>
                         <td>
-                            <b>Estimation </b>
+                            <b><a href={"/lectures/CSC2541_lecture4_estimation.pdf"}> Estimation </a> </b>
                             <br/>
                             Once we have identified a causal query, we still need to build efficient estimators to estimate it
                             from finite data. This lecture focuses on some well-known estimators in the literature,
@@ -151,7 +151,6 @@ export default function Home() {
                         </td>
                         <td>
                             ICI 7.1-7.6 <br/>
-                            <a href={"https://arxiv.org/pdf/1706.03461.pdf"}> Meta-Learners </a> <br/>
                              <a href={"https://arxiv.org/pdf/1606.03976.pdf"}> TAR-Net</a> <br/>
                              <a href={"https://www.stat.cmu.edu/~ryantibs/journalclub/rosenbaum_1983.pdf"}> Propensity Score</a> <br/>
                         </td>
