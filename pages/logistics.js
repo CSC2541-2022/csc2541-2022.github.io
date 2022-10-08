@@ -24,14 +24,14 @@ export default function Home() {
             <li><b>15%</b>: Project Presentation (completed in project groups)</li>
             <li><b>35%</b>: Project Final Report (completed in project groups)</li>
           </ul>
-          {/*<h5>Late Policy</h5>*/}
-          {/*<p>All students in this class are granted two 24-hour "late days" which they may use on any written submission assignments throughout the quarter (with the exception of the Project Final Report). You do not need to inform the course staff that you are using a late day for a particular assignment: we will automatically deduct from your late day allocation if you make a submission after the deadline. Once you have used both your late days, we will apply a penalty of 30% per day for each subsequent late submission. Any assignment received more than four calendar days past its due date will not be graded.</p>*/}
-          {/*<p>If a component of a group submission is late, <i>all members of the group</i> will be deducted the appropriate number of late days (or penalized with the 30% per day discount factor, depending on how late the submission is and how many late days each group member has remaining).</p>*/}
-          {/*Examples:*/}
-          {/*<ul>*/}
-          {/*  <li>If you submit your Paper Summary Assignment two days past the deadline, and your Project Proposal one day past the deadline, you would not be penalized on your Paper Summary submission; however, your Project Proposal score would be discounted by 30% since it was submitted after your late days had been exhausted.</li>*/}
-          {/*  <li>Assume that you are working in a project group of two. You submit your Paper Summary Assignment two days late, while your partner submitted their Paper Summary on time. You and your project partner then submit your Project Proposal one day past the deadline. Your grade on the Project Proposal Report would receive a 30% discount (since you had previously exhausted all your late days), while your partner's grade would not be discounted (since they still had remaining late days).</li>*/}
-          {/*</ul>*/}
+          <h5>Late Policy</h5>
+          <p>All students in this class are granted two 24-hour "late days" which they may use on any written submission assignments throughout the quarter (with the exception of the Project Final Report). You do not need to inform the course staff that you are using a late day for a particular assignment: we will automatically deduct from your late day allocation if you make a submission after the deadline. Once you have used both your late days, we will apply a penalty of 30% per day for each subsequent late submission. Any assignment received more than four calendar days past its due date will not be graded.</p>
+          <p>If a component of a group submission is late, <i>all members of the group</i> will be deducted the appropriate number of late days (or penalized with the 30% per day discount factor, depending on how late the submission is and how many late days each group member has remaining).</p>
+          Examples:
+          <ul>
+            <li>If you submit your Paper Summary Assignment two days past the deadline, and your Project Proposal one day past the deadline, you would not be penalized on your Paper Summary submission; however, your Project Proposal score would be discounted by 30% since it was submitted after your late days had been exhausted.</li>
+            <li>Assume that you are working in a project group of two. You submit your Paper Summary Assignment two days late, while your partner submitted their Paper Summary on time. You and your project partner then submit your Project Proposal one day past the deadline. Your grade on the Project Proposal Report would receive a 30% discount (since you had previously exhausted all your late days), while your partner's grade would not be discounted (since they still had remaining late days).</li>
+          </ul>
           {/*<h5>Accessibility</h5>*/}
           {/*<p>We are committed to making our classroom an accessible environment. We are currently seeking a volunteer who can scribe notes during lectures and presentations (to be posted publicly after each session) in exchange for 5% bonus credit in the course. If you are interested, please <a href="mailto:coopermj@cs.toronto.edu">email Michael</a>.</p>*/}
           {/*<p>If you have any other accessibility requirements or concerns, please also <a href="mailto:coopermj@cs.toronto.edu">email Michael</a>.</p>*/}
