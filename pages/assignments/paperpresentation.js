@@ -22,7 +22,7 @@ export default function Home() {
 
           <p>For a 25 minute presentation you should aim to have no more than 20 slides.</p>
 
-          <p>We ask you to explicitly include the following template slides in your presentation :</p>
+          <p>We ask you to explicitly include the following template slides in your presentation:</p>
           <ul>
             <li><b>Problem Setup</b>: What problem is the paper trying to solve?</li>
             <li><b>Motivation</b>: What motivated the work? Who should care about it, and what applications do you foresee for this work?</li>
