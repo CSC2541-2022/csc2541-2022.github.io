@@ -25,6 +25,13 @@ export default function Home() {
 
           <h3>Announcements</h3>
            {/*Alert for checking out project resources.*/}
+            <Alert variant="info">
+            <h5>Assignment</h5>
+<p>The <a href={"assignments/assignment.zip"}> problem set</a> is released. It is due on October 31, 11:59 pm ET.</p>
+            <div align="right">
+              <small>October 9, 2022</small>
+            </div>
+          </Alert>
           <Alert variant="info">
             <h5>COVID-19</h5>
 <p>Although the pandemic has diminished somewhat, all indications are that we are not yet out of the woods. The university no longer requires the use of masks on its premises but encourages it where it is impossible to maintain physical distancing, such as in classrooms and offices.</p>
