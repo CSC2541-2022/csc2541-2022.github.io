@@ -22,16 +22,14 @@ export default function Home() {
 
           <p>For a 25 minute presentation you should aim to have no more than 20 slides.</p>
 
-          <p>Here are some pointers to keep in mind when presenting:</p>
+          <p>We ask you to explicitly include the following template slides in your presentation :</p>
           <ul>
-            <li>What motivated the work? Who should care about it and what potential applications do you foresee this work being useful for?</li>
-            <li>What problem is the paper trying to solve?</li>
-            <li>What is the approach used in the paper? How is it different from what has been done before?</li>
-            <li>Describe the core technical or practical contributions of the paper - explain why the paper is new to the literature and what it allows practitioners to do which could not be done before.</li>
-            <li>What are the limitations of the work? What would you have done to improve upon the work?</li>
+            <li><b>Problem Setup</b>: What problem is the paper trying to solve?</li>
+            <li><b>Motivation</b>: What motivated the work? Who should care about it, and what applications do you foresee for this work?</li>
+            <li><b>Related Work</b>: What is a short summary of existing work? How do they solve the problem?</li>
+            <li><b>Technical Detail</b>: Describe the paper's core technical or practical contributions - explain why the paper is new to the literature and what it allows practitioners to do, which could not be done before.</li>
+            <li><b>Limitation and Future Work</b>: What are the limitations of the work? What would you do to improve the work if you had infinite time?</li>
           </ul>
-
-          <p>You'll notice below that we've included a requirement wherein you present a rehearsal walkthrough of your talk to the TA in the week preceding your presentation date. More information on signing up for these sessions will be released as a course announcement closer to the paper presentation dates.</p>
 
           <h5>Rubric</h5>
 
@@ -56,8 +54,8 @@ export default function Home() {
                 <td>20%</td>
               </tr>
               <tr>
-                <td>Creates a compelling new visual representation of the main idea.</td>
-                <td>10%</td>
+                <td>Creates a compelling visual representation of the main idea.</td>
+                <td>5%</td>
               </tr>
               <tr>
                 <td>Explains the experiments and/or results. Discussion of what the machine learning community stands to gain from this work.</td>
@@ -69,10 +67,10 @@ export default function Home() {
               </tr>
               <tr>
                 <td>Finish under time (25 minutes).</td>
-                <td>5%</td>
+                <td>10%</td>
               </tr>
               <tr>
-                <td>Complete a rehearsal presentation in advance for feedback from a TA.</td>
+                <td>Includes the template slides.</td>
                 <td>10%</td>
               </tr>
             </tbody>
