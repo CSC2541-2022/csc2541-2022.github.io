@@ -159,18 +159,18 @@ export default function Home() {
                     <tr>
                         <td>10/10/2022</td>
                         <td>No Class - Thanksgiving </td>
-                        <td> TBD </td>
+                        <td> - </td>
                     </tr>
 
                     <tr>
                         <td>10/17/2022</td>
-                        <td>Student Paper Presentation </td>
+                        <td><b>Instrumental Variables </b> + Student Paper Presentation </td>
                         <td> TBD </td>
                     </tr>
 
                     <tr>
                         <td>10/24/2022</td>
-                        <td><b>Instrumental Variables </b> + Student Paper Presentation
+                        <td><b>Partial Identification</b> + Student Paper Presentation
 
                         </td>
                         <td> TBD </td>
@@ -179,7 +179,6 @@ export default function Home() {
                     <tr>
                         <td>10/31/2022</td>
                         <td>
-                            <b>Causal Representation Learning </b> +
                             Student Paper Presentation
                         </td>
                         <td> TBD </td>
