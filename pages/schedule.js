@@ -164,8 +164,11 @@ export default function Home() {
 
                     <tr>
                         <td>10/17/2022</td>
-                        <td><b>Instrumental Variables </b> + Student Paper Presentation </td>
-                        <td> TBD </td>
+                        <td><b><a href={"/lectures/CSC2541_lecture5_iv.pdf"}> Instrumental Variables </a></b> + Student Paper Presentation </td>
+                        <td> ICI 9.1-9.4 <br/>
+                             ECI 9.3,
+                            <a href={"https://matheusfacure.github.io/python-causality-handbook/08-Instrumental-Variables.html"}> link</a>
+                        </td>
                     </tr>
 
                     <tr>
