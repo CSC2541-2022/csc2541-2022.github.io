@@ -173,7 +173,7 @@ export default function Home() {
 
                     <tr>
                         <td>10/24/2022</td>
-                        <td><b><a href={"/lectures/CSC2541_lecture6_iv.pdf"}>Instrumental Variables (Cont.)</a> </b> + Student Paper Presentation
+                        <td>Student Paper Presentation
 
                         </td>
                         <td> TBD </td>
