@@ -14,7 +14,7 @@ export default function Home() {
         <p>This offering of CSC2541 will contain the following assignments (shown below with their grading breakdowns).</p>
 
         <h4><a href={"assignments/assignment.zip"}> Problem Set (15%) </a></h4>
-        <h6>Release: October 7 / Due: October 31, at 11:59PM ET</h6>
+        <h6>Release: October 7 / Due: November 6, at 11:59PM ET</h6>
         <p>In this assignment, you will have a chance to practice the content from the lecture. It is individual work.</p>
         <h4><a href="assignments/papersummary">Paper Summary Assignment (15%)</a></h4>
         <h6>Due: October 31, at 11:59PM ET.</h6>
