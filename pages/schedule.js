@@ -176,7 +176,7 @@ export default function Home() {
                         <td>Student Paper Presentation
 
                         </td>
-                        <td> TBD </td>
+                        <td> - </td>
                     </tr>
 
                     <tr>
@@ -184,13 +184,13 @@ export default function Home() {
                         <td>
                             Student Paper Presentation
                         </td>
-                        <td> TBD </td>
+                        <td> - </td>
                     </tr>
 
                     <tr>
                         <td>11/07/2022</td>
                         <td>No Class - Reading Week</td>
-                        <td> TBD </td>
+                        <td> - </td>
                     </tr>
 
                     <tr>
@@ -207,8 +207,6 @@ export default function Home() {
                         <td>11/21/2022</td>
                         <td>
                             <b>More Advanced Estimation Methods </b>
-                            +
-                            Student Project Presentation
                         </td>
                         <td> TBD </td>
                     </tr>
@@ -216,13 +214,13 @@ export default function Home() {
                     <tr>
                         <td>11/28/2022</td>
                         <td>Student Project Presentation</td>
-                        <td> TBD </td>
+                        <td> - </td>
                     </tr>
 
                     <tr>
                         <td>12/05/2022</td>
                         <td>Student Project Presentation</td>
-                        <td> TBD </td>
+                        <td> - </td>
                     </tr>
                     </tbody>
                 </Table>
