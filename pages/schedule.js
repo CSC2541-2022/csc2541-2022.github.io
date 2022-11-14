@@ -196,11 +196,11 @@ export default function Home() {
                     <tr>
                         <td>11/14/2022</td>
                         <td>
-                            <b>Invariant Learning </b>
+                            <b><a href={"/lectures/CSC2541_lecture6_icp.pdf"}> Invariant Learning </a> </b>
                             +
                             Student Paper Presentation
                         </td>
-                        <td> TBD </td>
+                        <td> <a href={"https://arxiv.org/pdf/1501.01332.pdf"}> ICP paper</a> </td>
                     </tr>
 
                     <tr>
