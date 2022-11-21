@@ -206,9 +206,9 @@ export default function Home() {
                     <tr>
                         <td>11/21/2022</td>
                         <td>
-                            <b>More Advanced Estimation Methods </b>
+                            <b> <a href={"/lectures/CSC2541_lecture7_dml.pdf"}> Double Machine Learning </a> </b>
                         </td>
-                        <td> TBD </td>
+                        <td> <a href={"https://arxiv.org/abs/1608.00060"}> DML paper</a> <br/> <a href={"https://arxiv.org/abs/2007.02938"}> DML application </a> </td>
                     </tr>
 
                     <tr>
